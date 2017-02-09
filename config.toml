@@ -1,0 +1,67 @@
+theme = "hugo-creative-portfolio-theme"
+languageCode = "fr-fr"
+title = "Les formations de datactivi.st"
+baseurl = "http://www.datactivi.st/"
+pluralizeListTitles = false
+
+disqusShortname = "datactivist"
+googleAnalytics = "UA-80486908-1"
+
+
+style = "red"
+
+[author]
+    name = "datactivi.st"
+    
+[params]
+  # Style options: default (pink), blue, green, pink, red, sea, violet
+  # Use custom.css for your custom styling
+  style = "red"
+  description = "Présentation des formations assurées par datactivi.st, dans le domaine de la culture générale de la donnée, de l'open data, de l'introduction à la datascience et en particulier au logiciel d'analyse de données et de statistiques R. Tous les supports de formations sont placés sous licence CC-BY-SA."
+  copyright = "&copy;2017 datactivi.st"
+  sidebarAbout = [
+    "We open data, we make them used and useful!",
+    "datactivi.st est une coopérative (SCOP) accompagnant les organisations dans leurs démarches d'ouverture de leurs données. "
+  ]
+  # Contact page
+     # Since this template is static, the contact form uses www.formspree.io as a
+     # proxy. The form makes a POST request to their servers to send the actual
+     # email. Visitors can send up to a 1000 emails each month for free.
+     #
+     # What you need to do for the setup?
+     #
+     # - set your email address under 'email' below
+     # - upload the generated site to your server
+     # - send a dummy email yourself to confirm your account
+     # - click the confirm link in the email from www.formspree.io
+     # - you're done. Happy mailing!
+  email = "hello@datactivi.st"
+  
+ # Nav links in the side bar
+  [[params.navlinks]]
+  name = "Home"
+  url = ""
+
+  [[params.navlinks]]
+  name = "Formations"
+  url = "formations/"
+
+  [[params.navlinks]]
+  name = "Blog"
+  url = "blog/"
+
+  [[params.navlinks]]
+  name = "Contactez-nous"
+  url = "contact/"
+
+  [params.social]
+  email        = "hello@datactivi.st"
+  twitter      = "https://twitter.com/datactivi_st"
+  github       = "https://www.github.com/datactivi_st"
+  rss          = "index.xml"
+  
+  #Adding widgets to the sidebar
+  [params.widgets]
+    categories = false
+    tags = false
+    search = true
